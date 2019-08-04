@@ -1,7 +1,16 @@
 body{
+	width: 100%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #60b442;
+}
+.container{
+	margin: 4em 0px 0px 200px;
+	width: 95em;
+	height: 50em;
+	background-color: #fff;
 }
 a{
 	text-decoration: none;
@@ -10,12 +19,13 @@ a{
 .header{
 	float: left;
 	width: 100%;
+	font-weight: bold;
 }
 .logo{
 	float: left;
     width: 10%;
     /*padding: 22px 38px 21px 60px;*/
-    margin: 0px 0px 0px 147px;
+    margin: 0px 0px 0px 100px;
 }
 .logo-img{
 	width: 10em;
@@ -32,7 +42,7 @@ a{
 }
 .menu-item{
 	float: left;
-	margin: 11px 25px 0px 20px;
+	margin: 11px 9px 0px 15px;
 	color: #fff;
 	text-align: center;
 	list-style-type: none;
@@ -44,12 +54,12 @@ a{
 .login-div{
 	float: left;
 	margin: 0;
-	width: 31%;
+	width: 33%;
 	height: 108px;
 }
 .login-div a{
-	float: right;
-	padding: 60px 168px 0px 0px;
+	float: left;
+	padding: 70px 0px 0px 370px;
 }
 .hero{
 	width: 100%;
@@ -58,25 +68,29 @@ a{
 }
 .left-side{
 	float: left;
-	padding: 50px 0px 0px 240px;
+	padding: 0px 0px 0px 120px;
 }
 .right-side{
 	width: 500px;
-	height: 40em;
+	height: 33em;
 	float: left;
-	padding: 80px 0px 0px 150px;
+	padding: 30px 0px 0px 150px;
+}
+.right-side h2{
+	font-weight: bolder;
 }
 .right-side span{
 	color: #60b442;
 }
 .form{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 .input{
 	width: 480px;
 	height: 30px;
-	border-radius: 3px;
+	border-radius: 5px;
 	margin-top: 20px;
+	text-indent: 15px;
 	border: 2px solid grey;
 }
 .first{
@@ -89,22 +103,23 @@ a{
 	width: 230px;
 }
 button {
-	width: 480px;
-	height: 30px;
+	border: none;
+	width: 485px;
+	height: 35px;
 	margin-top: 20px;
 	background-color: #60b442;
-	border-radius: 3px;
+	border-radius: 5px;
 	color: #fff;
 	font-weight: bold;
 }
 .form-footer{
-	margin-top: 30px;
+	margin-top: 25px;
 }
 .form-footer span{
 	color: #60b442;
 }
 .already{
-	margin-top: 40px;
+	margin-top: 25px;
 	text-align: center;
 }
 
