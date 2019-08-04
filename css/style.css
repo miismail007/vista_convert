@@ -125,12 +125,28 @@ button {
 
 
 @media screen and (max-width: 992px){
+	.container{
+		margin: 4em 0px 0px 85px;
+		width: 820px;
+		height: 1610px;
+	}
+	.menu-item{
+		margin: 11px 0px 0px 32px;
+	}
+	.login-div{
+		width: 10%;
+		margin: 0px 0px 0px 0px;
+	}
+	.login-div a{
+		float: left;
+		padding: 61px 0px 0px 22px;
+	}
 	.menu-container{
-		width: 25%;
-		padding: 0px 0px 0px 250px;
+		width: 68%;
+		padding: 0px 0px 0px 0px;
 	}
 	.left-side{
-		padding: 80px 0px 0px 170px;
+		padding: 80px 0px 0px 115px;
 	}
 	video{
 		width: 1000;
@@ -138,17 +154,17 @@ button {
 	}
 	.right-side{
 		padding: 80px 0px 0px 100px;
-		width: 815px;
+		width: 630px;
 	}
 	.logo{
-		margin: 0px 0px 0px 60px;
-		padding: 0px 0px 0px 20px;
+		margin: 0px 0px 0px 50px;
+		padding: 0px 0px 0px 0px;
 	}
 	button{
-		width: 760px;
+		width: 630px;
 	}
 	.input{
-		width: 760px;
+		width: 630px;
 	}
 	.last{
 		margin-left: 0px;
@@ -157,6 +173,6 @@ button {
 		text-align: center;
 	}
 	hr{
-		width: 760px;
+		width: 630px;
 	}
 }
