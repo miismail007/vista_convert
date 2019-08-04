@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.header{
+	float: left;
+	width: 100%;
+}
+.logo{
+	float: left;
+    width: 10%;
+    /*padding: 22px 38px 21px 60px;*/
+    margin: 0px 0px 0px 147px;
+}
+.logo-img{
+	width: 10em;
+	height: 7em;
+}
+.menu-container{
+	float: left;
+	width: 50%;
+	height: 108px;
+}
+.menu{
+	float: left;
+	padding: 35px 0em 0em 0em;
+}
+.menu-item{
+	float: left;
+	margin: 11px 25px 0px 20px;
+	color: #fff;
+	text-align: center;
+	list-style-type: none;
+	font-size: 15px;
+	/*font-weight: 500;*/
+	font-style: bold;
+	text-transform: uppercase;
+}
+.login-div{
+	float: left;
+	margin: 0;
+	width: 31%;
+	height: 108px;
+}
+.login-div a{
+	float: right;
+	padding: 60px 168px 0px 0px;
+}
+.hero{
+	width: 100%;
+	float: left;
+	height: 51em;
+}
+.left-side{
+	float: left;
+	padding: 50px 0px 0px 240px;
+}
+.right-side{
+	width: 500px;
+	height: 40em;
+	float: left;
+	padding: 80px 0px 0px 150px;
+}
+.right-side span{
+	color: #60b442;
+}
+.form{
+	margin-top: 50px;
+}
+.input{
+	width: 480px;
+	height: 30px;
+	border-radius: 3px;
+	margin-top: 20px;
+	border: 2px solid grey;
+}
+.first{
+	float: left;
+	width: 230px;
+}
+.last{
+	float: left;
+	margin-left: 15px;
+	width: 230px;
+}
+button {
+	width: 480px;
+	height: 30px;
+	margin-top: 20px;
+	background-color: #60b442;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+}
+.form-footer{
+	margin-top: 30px;
+}
+.form-footer span{
+	color: #60b442;
+}
+.already{
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 992px){
+	.menu-container{
+		width: 25%;
+		padding: 0px 0px 0px 250px;
+	}
+	.left-side{
+		padding: 80px 0px 0px 170px;
+	}
+	video{
+		width: 1000;
+		height: 1000;
+	}
+	.right-side{
+		padding: 80px 0px 0px 100px;
+		width: 815px;
+	}
+	.logo{
+		margin: 0px 0px 0px 60px;
+		padding: 0px 0px 0px 20px;
+	}
+	button{
+		width: 760px;
+	}
+	.input{
+		width: 760px;
+	}
+	.last{
+		margin-left: 0px;
+	}
+	.form-footer{
+		text-align: center;
+	}
+	hr{
+		width: 760px;
+	}
+}
